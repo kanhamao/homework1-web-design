@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background: rgb(226, 190, 190);
+    height: 40px;
+    
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+}
+header a:hover{
+    background: rgb(236, 66, 66);
+}
+.head{
+    height: 150px;
+    padding: 90px;
+    text-align: center;
+    background: rgb(245, 175, 175);
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    box-shadow:rgba(7, 7, 153, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 15px;
+    background: rgb(235, 173, 173);
+
+}
+/* -------------------- */
+.class{
+    display: flex;
+}
+.box2{ 
+    padding-top: 25px; 
+    margin-left: 20px; 
+     
+} 
+.box11{ 
+    border: solid none; 
+    width: 100%; 
+    height: 50vh; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    margin: 50px 0 0px 100px;
+    padding: 50px;
+
+} 
+h3{ 
+    font-size: 25px; 
+    margin-top: 2px;
+} 
+p{ 
+    font-size: 15px; 
+    margin-top: 3px; 
+} 
+h3,p{
+    margin-left: 100px;
+}
+.box3{ 
+    padding-top: 20px; 
+    margin: 53px 100px 0 30px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+     
+} 
+.box22, .box33, .box44{ 
+    border: solid none; 
+    width: 300px; 
+    height: 25vh; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 200px; 
+}
+h4{ 
+    text-align: center; 
+    padding-top: 160px; 
+ } 
+ h5{ 
+     text-align: center; 
+     padding-top: 70px; 
+ } 
+  
+ h6 { 
+     font-size: 30px; 
+     margin-top: 30px ; 
+     margin-bottom: 30px ; 
+     text-align: center; 
+ } 
+
+/* -------------------------- */
+
+.contact{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: none;
+    padding: 8px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
